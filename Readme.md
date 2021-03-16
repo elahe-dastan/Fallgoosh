@@ -4,7 +4,7 @@ doing opinion minding. **open source is holly**, so we're going to publish our e
 remember hoping to help anyone who may need it.
 
 # Our current service design
-![design](./image/hackton.png)
+![design](image/hackton.png)
 
 This service can easily become real-time by adding a scrapper instead of the simulator which was not our goal in the MVP.
 
@@ -37,4 +37,4 @@ This service can easily become real-time by adding a scrapper instead of the sim
 # Result
 Here is the result on our test data.
 
-![results](./image/resuts.png)
+![results](image/resuts.png)
