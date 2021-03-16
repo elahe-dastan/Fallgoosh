@@ -27,8 +27,12 @@ This service can easily become real-time by adding a scrapper instead of the sim
    tf-idf to reduce the weights of common words with no value). On the other hand we didn't have time to train another 
    model but never loose the profit of ensemble models. I should mention that we implemented an RNN model too but couldn't
    train it because the kernel of the jupyter notebook died.
-   
-3. **Software engineer**:
+ 
+3. **save trained model**: We had trained the model in my local server and wanted to use the model on the cloud. We didn't 
+   have enough resource to train it there, and even if we had it obviously was not wise to do so. We used "pickle" 
+   to save the trained model in a file with ".sav" extension then loaded the model on the cloud and used it.
+
+4. **Software engineer**:
 
 # Result
 Here is the result on our test data.
