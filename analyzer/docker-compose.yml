@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    build: .
+    ports:
+      - 8000:8000
+    environment:
+      RABBIT_MQ_URI: rabbit
+    restart: on-failure
+  rabbit:
+    image: rabbitmq:3.8.2
